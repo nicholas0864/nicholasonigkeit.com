@@ -3,40 +3,63 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Name - Portfolio</title>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Nicholas Onigkeit - Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Open+Sans:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>Nicholas Onigkeit</h1>
-        <p>Junior @ Mayo High School | Game Dev | Machine Learning | Software Development</p>
+        <div class="logo">
+            <h1>Nicholas Onigkeit</h1>
+            <p>Full Stack Developer | Programmer | Student</p>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
     </header>
 
     <section id="about">
-        <h2>About Me</h2>
-        <p>Passionate about coding, machine learning, and game development. Check out my projects below!</p>
+        <div class="content-container">
+            <h2>About Me</h2>
+            <p>Hello! I'm Nicholas, a passionate full stack developer constantly looking to learn new technologies. My focus is on creating dynamic and responsive websites and applications.</p>
+        </div>
     </section>
 
     <section id="projects">
-        <h2>Projects</h2>
-        <div class="project-list">
-            <div class="project">
-                <h3>Project Name</h3>
-                <p>Short description of your project.</p>
-                <a href="https://github.com/yourusername/project-repo" target="_blank">GitHub Repo</a>
+        <div class="content-container">
+            <h2>Projects</h2>
+            <div class="project-grid">
+                <div class="project-card">
+                    <h3>Project One</h3>
+                    <p>Short description of project one.</p>
+                </div>
+                <div class="project-card">
+                    <h3>Project Two</h3>
+                    <p>Short description of project two.</p>
+                </div>
+                <div class="project-card">
+                    <h3>Project Three</h3>
+                    <p>Short description of project three.</p>
+                </div>
             </div>
-            <!-- Add more projects like this -->
         </div>
     </section>
 
     <section id="contact">
-        <h2>Contact Me</h2>
-        <p>Email: nicholas.onigkeit@gmail.com</p>
-        <p>GitHub: <a href="https://github.com/nicholas0864" target="_blank">github.com/yourusername</a></p>
+        <div class="content-container">
+            <h2>Contact</h2>
+            <p>Feel free to reach out to me if you're interested in collaborating or just want to chat!</p>
+            <a href="mailto:nicholas.onigkeit@gmail.com" class="contact-button">Email Me</a>
+        </div>
     </section>
 
     <footer>
-        <p>© 2025 Nicholas Onigkeit</p>
+        <p>&copy; 2025 Nicholas Onigkeit. All rights reserved.</p>
     </footer>
 </body>
 </html>
